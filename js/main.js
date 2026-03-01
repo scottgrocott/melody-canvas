@@ -8,6 +8,7 @@ import { initAudio, tickAudio }               from './audio.js';
 import { tickHand, getHandCursorState }       from './hand.js';
 import { tickBrushEngine, getDwellProgress }  from './brush.js';
 import { initToolPanel, tickToolPanel }       from './toolpanel.js';
+import './utils.js';
 
 let lastTime = performance.now();
 
